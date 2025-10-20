@@ -72,16 +72,16 @@ Install osTicket by copying the extracted files to the IIS web root (C:\inetpub\
 </p>
 <br />
 
-![image URL](https://github.com/marceatmon/osticket-prereqs/blob/main/OsTicket%20Install%20Completed.jpg?raw=true)
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
 ![image URL](https://github.com/marceatmon/osticket-prereqs/blob/main/Heidi%20post%20install%20config.jpg?raw=true)
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+In MySQL, create a database for osTicket and assign a user (Jane Doe) with sufficient privileges. Rename "ost-sampleconfig.php" to "ost-config.php" in the osTicket/include/ directory. Change the file permissions to allow the web installer to write to ost-config.php.
+</p>
+<br />
+
+![image URL](https://github.com/marceatmon/osticket-prereqs/blob/main/OsTicket%20Install%20Completed.jpg?raw=true)
+</p>
+<p>
+The osTicket program has now been fully installed.
 </p>
 <br />
