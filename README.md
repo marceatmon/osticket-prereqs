@@ -68,7 +68,7 @@ Install IIS (Internet Information Services) with CGI enabled. Then install PHP M
 ![image URL](https://github.com/marceatmon/osticket-prereqs/blob/main/OsTicket%20Install.jpg?raw=true)
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Install osTicket by copying the extracted files to the IIS web root (C:\inetpub\wwwroot\osTicket).
 </p>
 <br />
 
