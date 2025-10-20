@@ -61,7 +61,7 @@ Download all necessary osTicket installation files as a zip file onto the deskto
 ![image URL](https://github.com/marceatmon/osticket-prereqs/blob/main/Enabling%20PHP%20extensions%20in%20IIS.jpg?raw=true)
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Install IIS (Internet Information Services) with CGI enabled. Then install PHP Manager for IIS and the Rewrite Module from the installation files. Then create a directory for PHP (e.g., C:\PHP) and extract PHP files there. Then install VC_redist.x86 and MySQL. Register PHP in IIS and restart IIS.
 </p>
 <br />
 
