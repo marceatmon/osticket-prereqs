@@ -44,7 +44,7 @@ A new virtual machine (VM) was created for osTicket in Microsoft Azure.
 </p>
 <br />
 
-![image URL](https://github.com/marceatmon/osticket-prereqs/blob/main/Remote%20Desktop.png)
+![image URL](https://github.com/marceatmon/osticket-prereqs/blob/main/Remote%20Dekstop.jpg)
 </p>
 <p>
 Once the VM is created, find and copy the public IP address. Open Remote Desktop (RD) app and paste the IP address into the RD app. After clicking Connect, login to the RD connection using the username and password that was created for the VM. Click connect for the VM to load.
