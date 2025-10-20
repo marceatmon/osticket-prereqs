@@ -44,42 +44,42 @@ A new virtual machine (VM) was created for osTicket in Microsoft Azure.
 </p>
 <br />
 
-![image URL](https://github.com/marceatmon/osticket-prereqs/blob/main/Remote%20Dekstop.jpg)
+![image URL](https://github.com/marceatmon/osticket-files/blob/main/Remote%20Dekstop.jpg)
 </p>
 <p>
 Once the VM is created, find and copy the public IP address. Open Remote Desktop (RD) app and paste the IP address into the RD app. After clicking Connect, login to the RD connection using the username and password that was created for the VM. Click connect for the VM to load.
 </p>
 <br />
 
-![image URL](https://github.com/marceatmon/osticket-prereqs/blob/main/osTicket%20Installation%20Files.jpg?raw=true)
+![image URL](https://github.com/marceatmon/osticket-files/blob/main/osTicket%20Installation%20Files.jpg?raw=true)
 </p>
 <p>
 Download all necessary osTicket installation files as a zip file onto the desktop of the VM using Remote Desktop. Then unzip the files.
 </p>
 <br />
 
-![image URL](https://github.com/marceatmon/osticket-prereqs/blob/main/Enabling%20PHP%20extensions%20in%20IIS.jpg?raw=true)
+![image URL](https://github.com/marceatmon/osticket-files/blob/main/Enabling%20PHP%20extensions%20in%20IIS.jpg?raw=true)
 </p>
 <p>
 Install IIS (Internet Information Services) with CGI enabled. Then install PHP Manager for IIS and the Rewrite Module from the installation files. Then create a directory for PHP (e.g., C:\PHP) and extract PHP files there. Then install VC_redist.x86 and MySQL. Register PHP in IIS and restart IIS.
 </p>
 <br />
 
-![image URL](https://github.com/marceatmon/osticket-prereqs/blob/main/OsTicket%20Install.jpg?raw=true)
+![image URL](https://github.com/marceatmon/osticket-files/blob/main/OsTicket%20Install.jpg?raw=true)
 </p>
 <p>
 Install osTicket by copying the extracted files to the IIS web root (C:\inetpub\wwwroot\osTicket).
 </p>
 <br />
 
-![image URL](https://github.com/marceatmon/osticket-prereqs/blob/main/Heidi%20post%20install%20config.jpg?raw=true)
+![image URL](https://github.com/marceatmon/osticket-files/blob/main/Heidi%20post%20install%20config.jpg?raw=true)
 </p>
 <p>
 In MySQL, create a database for osTicket and assign a user (Jane Doe) with sufficient privileges. Rename "ost-sampleconfig.php" to "ost-config.php" in the osTicket/include/ directory. Change the file permissions to allow the web installer to write to ost-config.php.
 </p>
 <br />
 
-![image URL](https://github.com/marceatmon/osticket-prereqs/blob/main/OsTicket%20Install%20Completed.jpg?raw=true)
+![image URL](https://github.com/marceatmon/osticket-files/blob/main/OsTicket%20Install%20Completed.jpg?raw=true)
 </p>
 <p>
 The osTicket program has now been fully installed.
