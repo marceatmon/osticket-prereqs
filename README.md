@@ -37,7 +37,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Installation Steps</h2>
 
-![image URL](https://github.com/marceatmon/osticket-prereqs/blob/main/Azure.png)
+![image URL](https://github.com/marceatmon/osTicket-files/blob/main/Azure.png?raw=true.png)
 </p>
 <p>
 A new virtual machine (VM) was created for osTicket in Microsoft Azure.
